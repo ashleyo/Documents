@@ -4,7 +4,7 @@
 Implement code representing bank accounts. The following objects/behaviours are required.
 
 +  **Customer** who are identified by **Name** and may also have other properties
-+ **Account** which will have a customer owner, **AccountHolder **  and will be identified by an **AccountNumber**. There will be  **deposit()** and **withdraw()** methods and it will correctly maintain a **Balance** property.
++ **Account** which will have a customer owner, **AccountHolder **  and will be identified by an **AccountNumber**. There will be  **Deposit()** and **Withdraw()** methods and it will correctly maintain a **Balance** property.
 
 + A mechanism that allows all accounts, their owners and their balances to be listed 
 *Hint: a collection class containing all accounts created?*
