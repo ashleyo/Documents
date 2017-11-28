@@ -36,8 +36,7 @@ Change your implementation so that all accounts may have more than one account h
 1. How many times did you change your implementation?
 2. Did you use i) concrete classes + inheritance ii) abstract classes + concrete classes + inheritance iii) interfaces? What made your decision for you?
 3. What woul you do differently if you were doing it again?
-4. Suppose the bank now wanted a PremiumXtraAccount that combined features of a **Current Account** and a **Savings Account** in that it had an overdraft facility but also paid interest on positive balances above a threshold. How woul you implement that? You cannot inherit from multiple classes in C# and neither can you use 
-
+4. Suppose the bank now wanted a PremiumXtraAccount that combined features of a **Current Account** and a **Savings Account** in that it had an overdraft facility but also paid interest on positive balances above a threshold. How would you implement that? You cannot inherit from multiple classes in C#. You can though, use mixins although they require a bit of work in C# ( combine [CondtionalWeakTable](https://docs.microsoft.com/en-gb/dotnet/api/system.runtime.compilerservices.conditionalweaktable-2?view=netframework-4.7.1) with extension methods).  
 ### Extension
 
 Read [this article](https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose). Write down all the questions it raises in your mind. (There should be a lot! This is advanced material  written for an experienced audience). Discuss these questions with your colleagues and then with your tutor.
