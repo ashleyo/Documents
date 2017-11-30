@@ -41,5 +41,9 @@ Change your implementation so that all accounts may have more than one account h
 ### Extension
 
 Read [this article](https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose). Write down all the questions it raises in your mind. (There should be a lot! This is advanced material  written for an experienced audience). Discuss these questions with your colleagues and then with your tutor.
+
+#### Further Research
+The approach that has been adopted here is probably quite crude. There are some [Design Patterns](http://www.dofactory.com/net/design-patterns) that would be usueful to consider, for instance the Decorator pattern. You might consider a design that takes a basic account (Props Type, AccountHolder,AccountNumber, Balance; Methods Deposit, Withdraw) and then *decorates* it with additional features such as extra account holders, overdraft limits, interest payment triggers, and so forth.
+
 > Written with [StackEdit](https://stackedit.io/).
 
